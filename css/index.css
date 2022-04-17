@@ -1,0 +1,115 @@
+body{
+  margin: 0;
+  background-color: #fdbb19;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+}
+
+.eye-left{
+  position: absolute;
+  top: 120px;
+  left: 520px;
+  width: 300px;
+  height: 300px;
+  background-color: #000;
+  border-radius: 230px 220px 200px 250px;
+}
+
+.eye-left:after{
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 44px;
+  width: 240px;
+  height: 240px;
+  background-color: #FFF;
+  border-radius: 200px 200px 200px 200px;
+}
+
+.eye-right{
+  position: absolute;
+  top: 110px;
+  left: 960px;
+  width: 280px;
+  height: 280px;
+  background-color: #000;
+  border-radius: 200px 250px 200px 250px;
+}
+
+.eye-right:after{
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 240px;
+  height: 240px;
+  background-color: #FFF;
+  border-radius: 200px 200px 200px 200px;
+}
+
+.snout-left{
+  position: absolute;
+  z-index: 1;
+  top: 500px;
+  left: 633px;
+  width: 200px;
+  height: 200px;
+  background-color: #fdbb19;
+  border: 10px solid #000;
+  border-radius: 0 0 130px 180px;
+  border-top:transparent;
+  transform: rotate(10deg);
+}
+
+.snout-right{
+  position: absolute;
+  z-index: 1;
+  top: 450px;
+  left: 991px;
+  width: 150px;
+  height: 230px;
+  background-color: #fdbb19;
+  border: 10px solid #000;
+  border-radius: 0 0px 180px 120px;
+  border-top:transparent;
+  transform: rotate(-10deg);
+}
+
+.snout-middle{
+  position: absolute;
+  top: 250px;
+  left: 670px;
+  width: 460px;
+  height: 300px;
+  background-color: #fdbb19;
+  border: 10px solid #000;
+  border-radius: 450px 350px 0 0;
+  border-bottom: transparent;
+  transform: rotate(10deg);
+}
+
+.nose{
+  z-index: 2;
+  position: absolute;
+  top: 440px;
+  left: 850px;
+  width: 180px;
+  height: 110px;
+  background-color: #000;
+  border-radius: 47%;
+  transform: rotate(2deg);
+}
+
+.mouth{
+  position: absolute;
+  top: 530px;
+  left: 800px;
+  width: 200px;
+  height: 70px;
+  border: 10px solid #000;
+  border-radius: 0% 0% 50% 70%;
+  border-top: transparent;
+}
